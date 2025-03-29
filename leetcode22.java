@@ -1,5 +1,10 @@
 // 22. Generate Parentheses
 
+/* 
+Runtime 1ms -> Beats 82.81%
+Memory 43.16MB -> Beats 69.13%
+*/
+
 import java.util.*;
 
 class Solution {

@@ -11,9 +11,8 @@ class Solution {
         for(int i = 0; i <= m; i++) dp[i][1] = 1;
         for(int i = 1; i <= m; i++) {
             for(int j = 1; j <= n; j++) {
-                int a = 0, b = 0;
-                a = dp[i-1][j];
-                b = dp[i][j-1];
+                int a = dp[i-1][j];
+                int b = dp[i][j-1];
                 dp[i][j] = a + b;
             }
         }

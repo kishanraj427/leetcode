@@ -12,7 +12,7 @@ class Solution {
         int i = 0;
         int max = 0;
         while(i < n) {
-            int l = 0;
+            int l;
             if(height[i] < height[n]) {
                 l = height[i];
                 i++;

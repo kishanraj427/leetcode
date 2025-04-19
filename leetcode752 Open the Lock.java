@@ -10,7 +10,7 @@ import java.util.*;
 class Pair<T, S> {
     T key;
     S value;
-    Pair(T key, S value) {
+    public Pair(T key, S value) {
         this.key = key;
         this.value = value;
     }

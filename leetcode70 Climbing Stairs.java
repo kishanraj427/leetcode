@@ -1,4 +1,4 @@
-// 62. Unique Paths
+// 70. Climbing Stairs
 
 /*  
 Runtime 0ms -> Beats 100.00%
